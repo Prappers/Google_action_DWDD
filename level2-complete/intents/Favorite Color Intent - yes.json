@@ -1,0 +1,33 @@
+{
+  "id": "f6ccc832-8a93-410e-a712-2afee46333e9",
+  "parentId": "11c929e9-1da4-476c-a601-9223561832fd",
+  "rootParentId": "11c929e9-1da4-476c-a601-9223561832fd",
+  "name": "Favorite Color Intent - yes",
+  "auto": true,
+  "contexts": [
+    "FavoriteColorIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FavoriteColorIntent.FavoriteColorIntent-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Which color, indigo taco, pink unicorn or blue grey coffee?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523401751,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "23ce5f91-9c25-4e4c-a18e-e1468a2e9375",
+    "data": [
+      {
+        "text": "blue grey coffee",
+        "alias": "fakeColor",
+        "meta": "@fakeColor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1524155487
+  },
+  {
+    "id": "6852f46a-7c4f-43cd-96d6-7296f7fb456b",
+    "data": [
+      {
+        "text": "indigo taco",
+        "alias": "fakeColor",
+        "meta": "@fakeColor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524155487
+  },
+  {
+    "id": "81718961-d888-4f98-ba69-33fa198d88b9",
+    "data": [
+      {
+        "text": "pink unicorn",
+        "alias": "fakeColor",
+        "meta": "@fakeColor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1524155487
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "id": "20097062-9720-4f0f-bc12-37c0b82025e8",
+  "parentId": "11c929e9-1da4-476c-a601-9223561832fd",
+  "rootParentId": "11c929e9-1da4-476c-a601-9223561832fd",
+  "name": "Favorite Color Intent - no",
+  "auto": true,
+  "contexts": [
+    "FavoriteColorIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FavoriteColorIntent.FavoriteColorIntent-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Goodbye, see you next time!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1523259456,
+  "fallbackIntent": false,
+  "events": []
+}
