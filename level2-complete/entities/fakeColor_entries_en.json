@@ -1,23 +1,23 @@
 [
   {
-    "value": "indigo taco",
+    "value": "Rode haan",
     "synonyms": [
-      "indigo taco",
-      "the first one"
+      "rode haan",
+      "de eerste"
     ]
   },
   {
-    "value": "pink unicorn",
+    "value": "roze eenhoorn",
     "synonyms": [
-      "pink unicorn",
-      "the second one"
+      "roze eenhoorn",
+      "de tweede"
     ]
   },
   {
-    "value": "blue grey coffee",
+    "value": "blauw grijze koffie",
     "synonyms": [
-      "blue grey coffee",
-      "the third one"
+      "blauw grijze koffie",
+      "de derde"
     ]
   }
 ]
