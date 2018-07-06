@@ -29,24 +29,24 @@ const app = dialogflow({debug: true});
 
 // Define a mapping of fake color strings to basic card objects.
 const colorMap = {
-  'indigo taco': new BasicCard({
-    title: 'Indigo Taco',
+  'rode haan': new BasicCard({
+    title: 'rode haan',
     image: {
       url: 'https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BxFyKV4eeNjDN1JRbF9ZMHZsa1k/style-color-uiapplication-palette1.png',
       accessibilityText: 'Indigo Taco Color',
     },
     display: 'WHITE',
   }),
-  'pink unicorn': new BasicCard({
-    title: 'Pink Unicorn',
+  'roze eenhoorn': new BasicCard({
+    title: 'roze eenhoorn',
     image: {
       url: 'https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BxFyKV4eeNjDbFVfTXpoaEE5Vzg/style-color-uiapplication-palette2.png',
       accessibilityText: 'Pink Unicorn Color',
     },
     display: 'WHITE',
   }),
-  'blue grey coffee': new BasicCard({
-    title: 'Blue Grey Coffee',
+  'blauw grijze koffie': new BasicCard({
+    title: 'blauw grijze koffie',
     image: {
       url: 'https://storage.googleapis.com/material-design/publish/material_v_12/assets/0BxFyKV4eeNjDZUdpeURtaTUwLUk/style-color-colorsystem-gray-secondary-161116.png',
       accessibilityText: 'Blue Grey Coffee Color',
@@ -59,7 +59,7 @@ const colorMap = {
 app.intent('Default Welcome Intent', (conv) => {
   // Asks the user's permission to know their name, for personalization.
   conv.ask(new Permission({
-    context: 'Hi there, to get to know you better',
+    context: 'Hallo, om je beter te leren kennen',
     permissions: 'NAME',
   }));
 });
@@ -69,12 +69,12 @@ app.intent('Default Welcome Intent', (conv) => {
 app.intent('actions_intent_PERMISSION', (conv, params, permissionGranted) => {
   if (!permissionGranted) {
     // If the user denied our request, go ahead with the conversation.
-    conv.ask(`OK, no worries. What's your favorite color?`);
+    conv.ask(`OK, geen probleem. Wat is je favoriete kleur?`);
   } else {
     // If the user accepted our request, store their name in
     // the 'conv.data' object for the duration of the conversation.
     conv.data.userName = conv.user.name.display;
-    conv.ask(`Thanks, ${conv.data.userName}. What's your favorite color?`);
+    conv.ask(`Thanks, ${conv.data.userName}. Wat is je favoriete kleur?`);
   }
 });
 
@@ -88,11 +88,11 @@ app.intent('favorite color', (conv, {color}) => {
     // to embed an audio snippet in the response.
     conv.ask(`<speak>${conv.data.userName}, your lucky number is ` +
       `${luckyNumber}.<audio src="${audioSound}"></audio>` +
-      `Would you like to hear some fake colors?</speak>`);
+      `Wil je ook een aantal nep kleuren horen?</speak>`);
   } else {
-    conv.ask(`<speak>Your lucky number is ${luckyNumber}.` +
+    conv.ask(`<speak>Je geluks getal is ${luckyNumber}.` +
       `<audio src="${audioSound}"></audio>` +
-      `Would you like to hear some fake colors?</speak>`);
+      `Wil je ook een aantal nep kleuren horen?</speak>`);
   }
 });
 
@@ -100,7 +100,7 @@ app.intent('favorite color', (conv, {color}) => {
 // The intent collects a parameter named 'fakeColor'.
 app.intent('favorite fake color', (conv, {fakeColor}) => {
   // Present user with the corresponding basic card and end the conversation.
-  conv.close(`Here's the color`, colorMap[fakeColor]);
+  conv.close(`Hier is de kleur`, colorMap[fakeColor]);
 });
 
 // Set the DialogflowApp object to handle the HTTPS POST request.
