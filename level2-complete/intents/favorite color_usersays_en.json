@@ -3,13 +3,13 @@
     "id": "d8d06db0-6712-42de-a84d-50cd712fbbb2",
     "data": [
       {
-        "text": "orange",
+        "text": "oranje",
         "alias": "color",
         "meta": "@sys.color",
         "userDefined": true
       },
       {
-        "text": " is my favorite",
+        "text": " is mijn favoriet",
         "userDefined": false
       }
     ],
@@ -21,11 +21,11 @@
     "id": "958c7769-63d2-4108-b4d3-f930cf4333e8",
     "data": [
       {
-        "text": "I love ",
+        "text": "Ik hou van ",
         "userDefined": false
       },
       {
-        "text": "yellow",
+        "text": "geel",
         "alias": "color",
         "meta": "@sys.color",
         "userDefined": false
@@ -39,7 +39,7 @@
     "id": "028855b6-94d1-4472-84d2-1a56e45119d8",
     "data": [
       {
-        "text": "pink",
+        "text": "roze",
         "alias": "color",
         "meta": "@sys.color",
         "userDefined": false
@@ -53,11 +53,11 @@
     "id": "c5fdba27-4794-416b-887d-8656f7b64327",
     "data": [
       {
-        "text": "my favorite color is ",
+        "text": "mijn favoriete kleur is ",
         "userDefined": false
       },
       {
-        "text": "green",
+        "text": "groen",
         "alias": "color",
         "meta": "@sys.color",
         "userDefined": false
