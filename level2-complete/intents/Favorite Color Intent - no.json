@@ -16,8 +16,8 @@
       "messages": [
         {
           "type": 0,
-          "lang": "en",
-          "speech": "Goodbye, see you next time!"
+          "lang": "nl",
+          "speech": "Tot zover, tot morgen!"
         }
       ],
       "defaultResponsePlatforms": {},
