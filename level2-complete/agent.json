@@ -1,10 +1,10 @@
 {
   "description": "",
-  "language": "en",
+  "language": "nl",
   "disableInteractionLogs": false,
   "googleAssistant": {
     "googleAssistantCompatible": true,
-    "project": "lukedavis-test",
+    "project": "Google_action_DWDD",
     "welcomeIntentSignInRequired": false,
     "startIntents": [
       {
