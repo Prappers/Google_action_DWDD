@@ -16,8 +16,8 @@
       "messages": [
         {
           "type": 0,
-          "lang": "en",
-          "speech": "Which color, indigo taco, pink unicorn or blue grey coffee?"
+          "lang": "nl",
+          "speech": "Welke kleur, rode haan, roze eenhoorn of blauw grijze koffie?"
         }
       ],
       "defaultResponsePlatforms": {},
